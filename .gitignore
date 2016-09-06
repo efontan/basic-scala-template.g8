@@ -1,23 +1,29 @@
-*.iml
+# Scala
 *.class
 *.log
-target/
-project/target/
-project/boot/
-dist/
-boot/
-logs/
-out/
-tmp/
-projectFilesBackup/
-.history/
-.idea/
-.idea_modules/
-.DS_STORE
+
+# sbt specific
 .cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/target
+project/project
 .settings
-.project
 .classpath
-version.properties
-RUNNING_PID
+.project
+
+# IntelliJ
+.idea
+.idea_modules
+
+# Specific files
+*.iml
+.DS_Store
+logs
 
